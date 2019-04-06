@@ -1,0 +1,533 @@
+body{
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background-color: white;
+}
+/*this nav1 is for to shift the navagation to right*/
+.nav1{
+	float: right;
+	padding-top: 30px;
+	padding-right: 180px;
+}
+.navcolor{
+	color: #C0C1ED;
+}
+a:hover {
+  color: white;
+}
+li a img:hover{
+	color: white;
+}
+.logo{
+	float: left;
+	padding-top: 30px;
+	margin-left: 80px;
+}
+.navleft{
+	padding-left: 85px;
+	box-sizing: border-box;
+	width: 30%;
+	float: left;
+}
+.navright{
+	width: 70%;
+	float: right;
+	/*border: 2px solid black;*/
+	padding: 0px;
+}
+/*this block is for the background blue color*/
+.block1{
+	height: 835px;
+	width: 100%;
+	
+
+}
+.bgcolorone{
+	box-sizing: border-box;
+	background-color: rgb(40,19,179);
+	/*height: 850px;
+	width: 100%;*/
+padding: 0px;
+
+
+}
+/*this is for the text left side to the image*/
+.col2{
+	margin-left: 180px;
+	float: left;
+	width: 38%;
+	padding-top: 180px;
+	color: rgb(255,255,255);
+     font-size: 50px;
+	
+}
+/*this is for the image of a person right to the text*/
+.col3{
+	float: left;
+	padding-top: 50px;
+	margin-left: 30px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.col4{
+    padding: 0px;
+	height: 180px;
+	width: 33.33%;
+	box-sizing: border-box;
+	
+	border-right:1px solid #dbdbdb;
+     background-color: white;
+     
+	text-align: center;
+	float: left;
+	/*margin-left: 80px;*/
+	align-items: center;
+	color: black;
+	font-size: 18px;
+
+
+   }
+/*the css for svg*/
+
+.container{
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+	height: auto;
+	padding: 0px;
+
+}
+
+.container1{
+	width: 100%;
+    height: auto;
+	box-sizing: border-box;
+	background-color: rgba(219,219,219,0.3);
+
+}
+/*this is for addind the padding from top in the text*/
+h5{
+	padding-top: 20px;
+	text-decoration-style: normal;
+
+}
+/* this is for the button*/
+.button {
+  background-color: #FFB669;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /*margin: 4px 2px;*/
+  width: 180px;
+  height: 60px;
+}
+.button4 {border-radius: 5px;}
+/*the card 1st view  below the background and the person image*/ 
+.leftcorner{
+	border-radius: 7px 0px 7px 0px;
+}
+.rightcorner{
+	border-radius: 0px 7px 0px 7px;
+}
+.card-image{
+	margin-top: 20px;
+}
+.card-body{
+			background-color: white;
+			height: 30%;
+			padding: 0px;
+			
+		}
+/*to give shadow effect to the cards*/
+/*1.shadow to left and bottom*/
+.cardshadowone{
+
+box-shadow: -15px 15px 30px 0px #E2E2E2;
+
+}
+/*2.shadow to bottom*/
+.cardshadowtwo{
+	box-shadow: 0px 15px 30px 0px #E2E2E2;
+}
+/*3.shadow to bottom and right*/
+.cardshadowthree{
+	box-shadow: 15px 15px 30px 0px #E2E2E2;
+}
+.mid{
+	height: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 200px;
+	
+     background-color: white;
+     
+	text-align: center;
+	float: left;
+	
+	align-items: center;
+	color: black;
+	font-size: 12px;
+}
+.mid-large{
+	
+	height: 100px;
+	width: 70%;
+	box-sizing: border-box;
+	margin-top: 2px;
+	margin-left: 230px;
+     background-color: white;
+     
+	text-align: center;
+	float: left;
+	
+	align-items: center;
+	color: black;
+	font-size: 50px;
+}
+.tab-image{
+	width: 70%;
+    float: left;
+	margin-top: 100px;
+	margin-left: 140px;
+	background-color: white;
+	}
+.image-overlap{
+	float: left;
+	background-color: rgb(40,19,179);
+	height: 400px;
+	width: 100%;
+	box-sizing: border-box;
+	/*box-shadow: 0px 100px 200px 0px #ECECEC;*/
+}
+.col5{
+	height: 180px;
+	width: 28%;
+	box-sizing: border-box;
+     background-color: rgba(40,19,179,0.5);
+
+   	text-align: center;
+	float: left;
+	margin-top: 120px;
+	align-items: center;
+	color: white;
+	font-size: 18px;
+    margin-left: 40px;
+
+  
+}
+.t-color{
+	color:#F5B06A;
+	font-size: 50px;
+}
+.t-size{
+	margin-top: 100px;
+	width: 100%;
+	float: left;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	background-color: rgba(219,219,219,0.1);
+}
+.t-text{
+	width: 100%;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+
+}
+.cardbody2{
+	background-color: white;
+			height: 30%;
+			float: left;
+			color: black;
+			box-shadow: 5px;
+}
+.col6{
+	height: 120px;
+	/*width: 30%;*/
+	box-sizing: border-box;
+     background-color: white;
+   	text-align: center;
+	float: left;
+	margin-top: 120px;
+	align-items: center;
+	color: black;
+	font-size: 12px;
+    margin-left: 40px;
+    border-color: #ECECEC;
+    padding: 10px;
+}
+.gray1{
+	float: left;
+	background-color:rgba(219,219,219,0.3); 
+}
+/* the grid strats from here*/
+.wrapper {
+	margin-top: 20px;
+	margin-left: 230px;
+	width: 80%;
+	float: left;
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-row: 2;
+
+  /*grid-auto-rows: minmax(50px, auto);*/
+}
+.classone {
+	width: 32%;
+	float: left;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  text-align: center;
+  padding-top: 10px;
+}
+.classtwo{
+     
+     width: 32%;
+	float: left;
+	grid-column: 2/ 3;
+	grid-row: 1;
+	text-align: center;
+	padding-top: 10px;
+
+	
+}
+.classthree{
+	width: 32%;
+	float: left;
+	grid-column: 3/ 3;
+	grid-row: 1;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.classfour{
+	width: 32%;
+	float: left;
+	grid-column:1/ 3;
+	grid-row: 2;
+	text-align: center;
+	padding-top: 10px;
+
+
+
+}
+.classfive{
+	width: 32%;
+	float: left;
+	grid-column: 2/ 3;
+	grid-row: 2;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.classsix{
+	width: 32%;
+
+	float: left;
+	grid-column: 3/ 3;
+	grid-row: 2;
+	text-align: center;
+	padding-top: 10px;
+}
+.card-body2{
+	width: 350px;
+	background-color: white;
+			height: 90px;
+			
+			
+}
+.image-inside{
+	float: left;
+	height: 100%;
+	width: 60px;
+	padding-top: 10px;
+}
+/*the third image and background*/
+.image-overlap2{
+	float: left;
+	width: 100%;
+	height: 900px;
+	background-color: #3734BC;
+	margin-top: 150px;
+}
+.cimage{
+	float: left;
+	margin-top: 180px;
+	margin-left: 130px;
+}
+.ctext{
+	float: left;
+	color: white;
+	margin-top: 320px;
+	margin-left: 70px;
+}
+.buttontwo {
+  background-color: #506DEB;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  width: 165px;
+  height: 58px;
+  margin-top: 50px;
+}
+.button2 {border-radius: 5px;}
+/*the text after the image c*/
+.wrapper2{
+	float: left;
+	width: 100%;
+	background-color:#F9F9F9;
+}
+.tsize{
+	float: left;
+	font-size: 32px;
+	text-align: center;
+	width: 100%;
+	margin-top: 150px;
+}
+.tsize2{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+/*images above footer*/
+.wrapper3{
+	float: left;
+	width: 100%;
+	height: 300px;
+	background-color: #F9F9F9;
+}
+.fimageone{
+
+	box-sizing: border-box;
+	float: left;
+	width: 15%;
+	height: 120px;
+	margin-left: 180px;
+	margin-top: 80px;
+	
+    
+}
+.fimagetwo{
+	box-sizing: border-box;
+	float: left;
+	width: 15%;
+	height: 120px;
+	margin-top: 80px;
+    
+}
+.fimage3{
+	float: left;
+	width: 15%;
+	height: 30px;
+	margin-top: 80px;
+    
+}
+.fimage4{
+	float: left;
+	width: 15%;
+	height: 30px;
+	margin-top:   80px;
+    
+}
+.fimage5{
+	float: left;
+	width: 15%;
+	height: 30px;
+	margin-top: 80px;
+    
+}
+/*the footer css starts from here*/
+.wrapperfour{
+	width: 100%;
+	height: 600px;
+	float: left;
+	background-color:#FFFFFF;
+}
+.footerbone{
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	margin-top: 80px;
+	margin-left: 180px;
+	align-items: center;
+	color: #4D3C2B;
+
+}
+.footerbtwo{
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	margin-top: 80px;
+	margin-left: 10px;
+	align-items: center;
+	color: #4D3C2B;
+
+}
+.footerbthree{
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	margin-top: 80px;
+	align-items: center;
+}
+.footer-b-three-image{
+	display: inline-block;
+
+}
+hr{
+	color: #2F2F2F;
+	border-width: 1px;
+	margin-top: 500px;
+	width: 80%;
+	align-items: center;
+}
+.footerleft{
+	width: 50%;
+	float: left;
+	padding-left: 148px;
+	color: #88888C;
+	font-size: 12px;
+
+}
+.footerright{
+	width: 50%;
+	float: left;
+	padding-left: 148px;
+	color: #88888C;
+	font-size: 12px;
+	display: inline-block;
+}
+#footerhover a:hover{
+	color: #00BBFF;
+	text-decoration-line: none;
+}
+.colorref{
+ color: #88888C;
+}
+.fontone{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+}
+.fonttwo{
+	font-family: Nunito;
+	font-style: normal;
+}
+#footerhovertwo a:hover{
+	color: #00BBFF;
+	text-decoration-line: none;
+}
