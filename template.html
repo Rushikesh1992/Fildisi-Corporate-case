@@ -4,10 +4,12 @@
 	<title></title>
 
 <script src="bootstrap.bundle.js"></script>
+<script src="myscript.js" ></script>
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="temp.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Nunito" />
+
 </head>
 <body>
 
@@ -42,7 +44,7 @@
             </ul> 
         </div>
           
-            <div class="col2 fontone ">
+            <div class="col2 fontone">
 	 	          <p>This is your chance to jumpstart your business</p>
 	 	          <div class="fonttow">
 	 	          	 <h5 >At ancillae dissentiet appellantur ius, quis sadipscing in sed. Et adhuc conceptam mea, ut sea civibus luptatum.</h5>
@@ -57,7 +59,7 @@
 <!-- the card view for 3 blocks starts from here -->
             <div class="container">
   	 
-                 <div class="col4 card-body leftcorner cardshadowone"> 
+                 <div class="col4 card-body leftcorner cardshadowone col-sm-6"> 
        	              <div class="card-image">
        	     	           <img src="images/speedometer.png" height="60px" width="60px">
        	               </div>
@@ -174,8 +176,8 @@
                </div>
 
 <!-- for card view -->
-                <div class="wrapper">
-   	               <div class="classone card-body2">
+                <div class="wrapper col-xs-3">
+   	               <div class="classone card-body2 ">
    	    	             <div class="image-inside">
    	    		             <img src="images/light-bulb.png">
    	    	              </div>
@@ -345,10 +347,19 @@
            	        	
            	        	<br>
            	        	     <div class="footer-b-three-image">
-           	        	        <img src="images/twitterfollow.png">
-           	        	        <img src="images/facebook-follow.png" hspace="13px">
-           	        	        <img src="images/pinterest-follow.png" hspace="10px">
-           	        	        <img src="images/github-follow.png" hspace="10px">
+           	        	     	<div class="zoom">
+           	        	     		 <img src="images/twitterfollow.png">
+           	        	     	</div>
+           	        	        <div class="zoom">
+           	        	        	 <img src="images/facebook-follow.png" hspace="13px">
+           	        	        </div>
+           	        	        <div class="zoom">
+           	        	        	 <img src="images/pinterest-follow.png" hspace="10px">
+           	        	        </div>
+           	        	        <div class="zoom">
+           	        	        	 <img src="images/github-follow.png" hspace="10px">
+           	        	        </div>
+           	        	        
            	                 </div>
            	        </div>
            	      <!--  horizantal line -->  
@@ -364,10 +375,17 @@
                   	  	   <a class="colorref" href="#" style="margin-left:10px">Our Services</a>
                   	  	   <a class="colorref" href="#" style="margin-left:10px">Stay Connected</a>
                   	  </div>
+                  	  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/topup.png" width="50px" height="50px"></button>
+
                   </div>
              </div>
              
-             
+             <script type="text/javascript">
+             	function topFunction() {
+                                         document.body.scrollTop = 0;
+                                          document.documentElement.scrollTop = 0;
+                                        }
+             </script>
              	
             
              
